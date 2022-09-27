@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Oxygen:wght@300;400;700&family=Poppins:wght@400;500;600;700&family=Questrial&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+    background-color: black;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+}
+
+/* navbar design */
+.navbar{
+    position:fixed;
+    width:100%;
+    background-color:red;
+    font-family:'Ubuntu',sans-serif;
+}
+
+/* menu items inside navbar */
+.navbar .menu li a{
+    color:white;
+}
+
+/* a tag inside class logo */
+.navbar .logo a{
+    color:white;
+    font-size:35px;
+    font-weight:600;
+}
